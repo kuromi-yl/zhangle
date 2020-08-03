@@ -33,7 +33,7 @@ function sleep(fn, time) {
         }, time);
     });
 }
-let saySomething = (name) => console.log(`hello,${name}`)
+let saySomething = (name) => message.success(`hello,${name}`)
 async function autoPlay() {
     let demo = await sleep(saySomething('lele'),1000)
     let demo2 = await sleep(saySomething('miya'),1000)
