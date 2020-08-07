@@ -27,4 +27,7 @@ export default defineConfig({
     // @c-light-bg: #f9fafb;
 
   }
+  , 
+  ssr: {},
+  exportStatic: {},
 });
