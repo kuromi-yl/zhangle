@@ -1,8 +1,8 @@
 ---
-order: 5  
+order: 9  
 nav:
   title: 面试知识点
   path: /konwledge
 ---
 
-## 对象继承
+## hooks
